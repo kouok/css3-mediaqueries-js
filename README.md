@@ -1,3 +1,11 @@
+IE8和之前的浏览器不支持CSS3 media queries，你可以在页面中添加css3-mediaqueries.js来解决这个问题。
+
+```
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+```
+
 ### *css3-mediaqueries.js* - CSS Helper and CSS3 Media Queries Enabler
 
 ***Author:*** [Wouter van der Graaf](https://github.com/woutervandergraaf)
